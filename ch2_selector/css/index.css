@@ -1,0 +1,77 @@
+/*选择器*/
+
+h2[class] {
+    color: gray;
+}
+
+h2[class="spec-val-selector-1"] {
+    font-style: italic;
+}
+
+h2[class~="partial"] {
+    color: red;
+}
+
+h2[class^="partial"] {
+    color: purple;
+}
+
+h2[class$="3"] {
+    color: aqua;
+}
+
+h2[class*="4"] {
+    color: teal;
+}
+
+
+/*后代选择器*/
+
+ul li {
+    background: gray;
+}
+
+#select-child>li {
+    background: indianred;
+}
+
+
+/*伪类选择器*/
+
+.link:link {
+    color: red;
+}
+
+.visited:visited {
+    color: gray;
+}
+
+.focus:focus {
+    color: yellow;
+}
+
+.first-child:first-child {
+    background: tan;
+}
+
+.first-line:first-line {
+    background: blue;
+}
+
+.first-letter:first-letter {
+    font-size: 20px;
+}
+
+.lang:lang(fr) {
+    background: tan;
+}
+
+.before:before {
+    content: ">>>";
+    color: darkorange;
+}
+
+.after:after {
+    content: "<<<";
+    color: lightblue;
+}

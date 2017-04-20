@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ch2_selector</title>
+    <link rel="stylesheet" type="" href="css/index.css">
+</head>
+
+<body>
+    <h2 class="simple-selector">简单属性选择器</h2>
+    <h2 class="spec-val-selector-1">具体属性值选择器</h2>
+    <h2 class="spec-val-selector-2">包含值属性选择器</h2>
+    <h2 class="partial partial-selector-1">包含-属性选择器</h2>
+    <h2 class="partial partial-selector-2">开始属性选择器</h2>
+    <h2 class="partial partial-selector-3">结尾属性选择器</h2>
+    <h2 class="partial-selector-4">包含值属性选择器</h2>
+    <h2 class="partial-selector-4">包含值属性选择器</h2>
+
+    <br>
+    <br>
+    <!--选择后代元素-->
+    <ul id="descendant-selector">
+        <a href="">后代选择器</a>
+        <li>
+            <ul>
+                <a href="">后代选择器</a>
+                <li>bbb</li>
+                <li>bbb</li>
+                <li>bbb</li>
+                <li>bbb</li>
+                <li>bbb</li>
+            </ul>
+        </li>
+        <a href="">后代选择器</a>
+        <li>
+            <ul>
+                <a href="">后代选择器</a>
+                <li>bbb</li>
+                <li>bbb</li>
+                <li>bbb</li>
+                <li>bbb</li>
+                <li>bbb</li>
+            </ul>
+        </li>
+    </ul>
+
+    <br>
+    <br>
+    <!--选择子元素-->
+    <ul id="select-child">
+        <a href="">选择子元素</a>
+        <li>
+            <ul>
+                <a href="">选择子元素</a>
+                <li>bbb</li>
+                <li>bbb</li>
+                <li>bbb</li>
+                <li>bbb</li>
+                <li>bbb</li>
+            </ul>
+        </li>
+        <a href="">选择子元素</a>
+        <li>
+            <ul>
+                <a href="">选择子元素</a>
+                <li>bbb</li>
+                <li>bbb</li>
+                <li>bbb</li>
+                <li>bbb</li>
+                <li>bbb</li>
+            </ul>
+        </li>
+    </ul>
+
+
+    <!--伪类选择器-->
+    <a href="/" class="link">link伪类</a>
+    <a href="/" class="visited">visited伪类</a>
+    <a href="/" class="focus">focus伪类</a>
+    <a href="/" class="hover">hover伪类</a>
+    <a href="/" class="active">active伪类</a>
+    <p class="first-child">first-child伪类
+        <p>fff</p>
+    </p>
+    <p href="/" lang="fr" class="lang">lang伪类</p>
+    <p href="/" class="first-line">first-line伪类</p>
+    <p class="first-letter">First-letter</p>
+    <a href="/" class="before">before伪类</a>
+    <a href="/" class="after">after伪类</a>
+</body>
+
+</html>
