@@ -1,0 +1,109 @@
+/*body {
+    width: 400px;
+}*/
+
+.indent {
+    text-indent: 2em;
+    /*white-space: nowrap;*/
+    width: 400px;
+}
+
+.minus-indent {
+    text-indent: -2em;
+}
+
+.super-indent {
+    text-indent: 2em;
+    width: 500px;
+}
+
+
+/*p {
+    width: 200px;
+}*/
+
+.align-left {
+    text-align: left;
+    width: 500px;
+    background: maroon;
+}
+
+.align-right {
+    text-align: right;
+    width: 500px;
+    background: lightblue;
+}
+
+.align-center {
+    text-align: center;
+    width: 500px;
+    background: lightcyan;
+}
+
+.align-justify {
+    text-align: justify;
+    width: 500px;
+    background: lightcyan;
+}
+
+.line-box {
+    background: lightcoral;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.height-text {
+    font-family: times;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.sub-span {
+    vertical-align: sub;
+}
+
+.super-span {
+    vertical-align: super;
+    color: red;
+}
+
+.spread {
+    word-spacing: 1em;
+}
+
+.letter-spacing {
+    letter-spacing: 1em;
+}
+
+.text-transform {
+    text-transform: capitalize;
+}
+
+.text-dec {
+    text-decoration: overline;
+}
+
+.text-quirk {
+    text-decoration: overline;
+    color: gray;
+}
+
+.white-space {
+    width: 200px;
+    white-space: nowrap;
+}
+
+.direct-left-to-right {
+    direction: ltr;
+    color: darkcyan;
+}
+
+.direct-right-to-left {
+    direction: rtl;
+    color: greenyellow;
+}
+
+
+/*.child-indent {
+    text-indent: -2em;
+}*/
