@@ -3,3 +3,56 @@
     margin: 0;
     font-family: Arial;
 }
+
+.inline-el {
+    color: red;
+    background: silver;
+    height: 30px;
+    width: 60px;
+}
+
+.padding-margin {
+    background: url("../block.png");
+    width: 100px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.margin-super {
+    width: 50%;
+    height: 50%;
+    background: lightblue;
+}
+
+.margin-child {
+    margin: 10%;
+    background: lightcyan;
+}
+
+.margin-super strong {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.break-line strong {
+    margin: 20px;
+}
+
+.break-line img {
+    margin: 10px;
+}
+
+.border {
+    border-style: solid;
+    border-color: #a5e3ff;
+    background: url("../block.png");
+}
+
+.border {
+    border-top-style: dashed;
+    border-bottom-width: 5px;
+}
+
+.border {
+    border-top: dashed 2px lightgreen;
+}
