@@ -56,3 +56,18 @@
 .border {
     border-top: dashed 2px lightgreen;
 }
+
+.border-1 {
+    border: blanchedalmond 1px solid;
+}
+
+.border-inline span {
+    border-top: 3px solid rebeccapurple;
+    border-bottom: 5px dashed lightslategray;
+}
+
+.border-inline-1 span {
+    padding-top: 20px;
+    margin: 20px;
+    background: url("../block.png")
+}
