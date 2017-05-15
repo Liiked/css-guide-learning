@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ch10_float_position</title>
+    <link rel="stylesheet" type="" href="css/index.css">
+</head>
+
+<body>
+    <div class="float-with-img">
+        <p>Style sheets were our last, best for structure.They succeeded. It was the dawn of the second age of web browsers. <img src="block.png" style="width:20px;float:left;" alt="">This is the stroy of the first important steps towards sane markup and
+            accessibility
+        </p>
+    </div>
+    <br>
+    <div class="float-with-text">
+        <p>Style sheets were our last, best for structure.They succeeded. It was the dawn of the second age of web browsers.
+            <span>Of course, we found out later just now badly we'd done. But hey,that's what tourists are for.</span> This is the stroy of the first important steps towards sane markup and accessibility
+        </p>
+    </div>
+    <br>
+    <div class="float-with-div">
+        <div>Style sheets were our last, best for structure.They succeeded. It was the dawn of the second age of web browsers.
+            <div>Of course, we found out later just now badly we'd done. But hey,that's what tourists are for.</div> This is the stroy of the first important steps towards sane markup and accessibility
+        </div>
+    </div>
+    <br>
+    <div class="float-with-text">
+        <p>Style sheets were our last, best for structure.They succeeded. It was the dawn of the second age of web browsers. This is the stroy of the first important steps towards sane markup and accessibility
+        </p>
+    </div>
+    <div class="float-behaviour">
+        <div class="float w-1"></div>
+        <div class="float w-2"></div>
+        <div class="float w-3"></div>
+    </div>
+    <div class="float-behaviour">
+        Style sheets were our last,
+        <div class="float w-1"></div> best for structure.They succeeded. It was the dawn of the second age of web browsers. This is the stroy of the first important steps towards sane markup and accessibility
+        <div class="float w-2"></div>
+        <!--<div class="float w-3"></div>-->
+    </div>
+    <span class="float w-4"></span>
+    <p class="float-behaviour">
+        Style sheets were our last, best for structure.They succeeded. It was the dawn of the second age of web browsers. This is the stroy of the first important steps towards sane markup and accessibility
+        <!--<div class="float w-3"></div>-->
+    </p>
+</body>
+
+</html>
