@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ch10_float_position</title>
+    <link rel="stylesheet" type="" href="css/position.css">
+</head>
+
+<body>
+    <div class="static-position">
+        <p>Style sheets were our last, best for structure.They succeeded. It was the dawn of the second age of web browsers.
+            <img src="block.png" style="width:20px;float:left;" alt="">
+            <span> This is the stroy of the first important steps towards sane markup and accessibility</span> This is the stroy of the first important steps towards sane markup and accessibility
+        </p>
+    </div>
+    <div class="static-position">
+        <p>Style sheets were our last, best for structure.They succeeded. It was the dawn of the second age of web browsers.
+            <img src="block.png" style="width:20px;float:left;" alt="">
+            <span> That is the stroy of the first important steps towards sane markup and accessibility</span> This is the stroy of the first important steps towards sane markup and accessibility
+        </p>
+    </div>
+    <div class="absolute-absolute">
+        <p>Style sheets were our last, best for structure.They succeeded. It was the dawn of the second age of web browsers.
+            <span> That is the stroy of the first important steps towards sane markup and accessibility</span> This is the stroy of the first important steps towards sane markup and accessibility
+        </p>
+    </div>
+    <div class="absolute-absolute">
+        <div class="containing"></div>
+    </div>
+    <!--过度受限水平显示-->
+    <div class="auto center">
+        <!--忽略margin:0 auto;时居中显示-->
+        An absolutely positioned element can have its content
+        <span>shrink-wrapped</span> thanks to the way positioning rules work.
+    </div>
+    <div class="overcontrained right">
+        <!--忽略mrgin-right-->
+        An absolutely positioned element can have its content
+        <span>shrink-wrapped</span> thanks to the way positioning rules work.
+    </div>
+    <div class="overcontrained left">
+        <!--忽略mrgin-left-->
+        An absolutely positioned element can have its content
+        <span>shrink-wrapped</span> thanks to the way positioning rules work.
+    </div>
+    <!--过度受限垂直显示-->
+    <div class="height">
+        <div class="h-1">element a</div>
+        <div class="h-2">element b</div>
+        <div class="h-3">element c</div>
+    </div>
+    <br>
+    <!--垂直居中-->
+    <div class="vertical-align">
+        <div class="child">element d</div>
+    </div>
+    <br>
+    <!--过度受限垂直显示bottom-->
+    <div class="vertical-align bottom">
+        <div class="child">element d</div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+}
+
+.static-position {
+    width: 400px;
+}
+
+.static-position>p>span {
+    position: absolute;
+    background: gray;
+    margin: 10px;
+}
+
+.absolute-absolute {
+    width: 500px;
+    height: 300px;
+    background: lightcoral;
+}
+
+.absolute-absolute>p {
+    /*position: absolute;*/
+    border: dashed;
+}
+
+.absolute-absolute>p>span {
+    position: absolute;
+    background: lightgoldenrodyellow;
+}
+
+.containing {
+    width: 200px;
+    height: 100px;
+    background: lightgray;
+}
+
+.auto {
+    position: relative;
+    width: 25em;
+    border: 1px dotted;
+}
+
+.auto>span {
+    position: absolute;
+    top: 0;
+    left: 1em;
+    right: 1em;
+    width: 10em;
+    margin: 0 auto;
+    background: silver;
+}
+
+.overcontrained {
+    position: relative;
+    width: 25em;
+    border: 1px dotted;
+}
+
+.overcontrained span {
+    position: absolute;
+    top: 0;
+    left: 1em;
+    right: 1em;
+    width: 10em;
+    margin: 0 auto;
+    background: silver;
+}
+
+.right>span {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.left>span {
+    margin-left: auto;
+    margin-right: 1em;
+}
+
+.height {
+    position: relative;
+    width: 30em;
+    height: 10em;
+    border: 1px solid;
+}
+
+.h-1 {
+    position: absolute;
+    left: 0;
+    width: 30%;
+    background: #ccc;
+}
+
+.h-2 {
+    position: absolute;
+    left: 35%;
+    width: 30%;
+    height: 50%;
+    background: #aaa;
+}
+
+.h-3 {
+    position: absolute;
+    left: 70%;
+    width: 30%;
+    height: 50%;
+    bottom: 0;
+    background: #ccc;
+}
+
+.vertical-align {
+    position: relative;
+    width: 10em;
+    height: 10em;
+    border: 1px solid;
+}
+
+.child {
+    position: absolute;
+    width: 100%;
+    background: #ccc;
+    top: 0;
+    height: 5em;
+    bottom: 0;
+    margin: auto 0;
+}
+
+.bottom>.child {
+    margin: 0;
+}
