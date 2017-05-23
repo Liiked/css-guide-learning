@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+}
+
+html {
+    background: url("../background.png");
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+body {
+    width: 500px;
+}
+
+.border-color {
+    color: purple;
+    border: solid;
+}
+
+.form {
+    border: 1px dashed gray;
+}
+
+.form input {
+    color: red;
+}
+
+.form select {
+    color: red;
+}
+
+.back-image div,
+.back-image span {
+    background-image: url("../background.png")
+}
+
+.back-textarea {
+    background-image: url("../background.png");
+    background-color: lightblue;
+}
+
+.repeat-x {
+    background-image: url("../cross.png");
+    background-repeat: repeat-x;
+}
+
+.repeat-center {
+    background-image: url(../cross.png);
+    background-repeat: repeat;
+    background-position: center;
+}
+
+.repeat-left {
+    background-image: url(../cross.png);
+    background-repeat: repeat;
+    background-position: left;
+}
