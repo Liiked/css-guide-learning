@@ -130,4 +130,32 @@ table {
     width: 1px;
 }
 
-.align-table table {}
+.align-table table {
+    table-layout: auto;
+    width: 20em;
+    border-collapse: separate;
+    border-spacing: 3px;
+}
+
+.align-table td {
+    border: 1px solid;
+    background: silver;
+}
+
+.align-table div {
+    border: 1px dashed gray;
+    background: white;
+}
+
+.align-table #r1c1 {
+    vertical-align: top;
+    height: 10em;
+}
+
+.align-table #r2c1 {
+    vertical-align: middle;
+}
+
+.align-table #r3c1 {
+    vertical-align: bottom;
+}
