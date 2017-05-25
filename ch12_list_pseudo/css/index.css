@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+}
+
+.list-img ul li {
+    padding: 20px;
+    margin: 50px;
+    list-style-image: url("../block.png");
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+a[href]::before {
+    content: "(link) ";
+}
+
+.pdf::after {
+    content: url("../block.png");
+    display: block;
+    position: relative;
+    top: 20px;
+}
+
+.pdf {
+    border: solid;
+}
+
+.pseudo-inner h1 {
+    border-top: 3px solid red;
+    padding-top: .25em;
+}
+
+.pseudo-inner h1::before {
+    content: "New Section";
+    display: block;
+    color: gray;
+    border-bottom: 1px dotted black;
+    margin-bottom: .5em;
+}
+
+.pseudo-insert a::after {
+    content: attr(href);
+    font-style: italic;
+}
+
+.pseudo-quotes p {
+    quotes: '-|' '|-';
+}
+
+.pseudo-quotes p::after {
+    content: close-quote;
+    color: lightblue;
+    font-size: 30px;
+}
+
+.pseudo-quotes p::before {
+    content: open-quote;
+    color: lightblue;
+    font-size: 30px;
+}
+
+.counter ol,
+.counter ol li {
+    padding: initial;
+    margin-left: 50px;
+}
+
+.counter ol {
+    counter-reset: order;
+}
+
+.counter ol li {
+    counter-increment: order -1;
+}
